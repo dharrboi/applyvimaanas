@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7f6db7c8c6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Login Vimaanas</title>
+</head>
+<body class="bg-slate-800 flex justify-center items-center py-8 h-screen">
+    <div>
+        <div class="flex flex-col items-center gap-4">
+            <img src="LOGO.png" class="w-12" alt="">
+            <span class="text-3xl text-white">Vimaanas Inc</span>
+        </div>
+        
+        <div class="flex flex-col md:flex-row gap-y-4 md:gap-x-4 mt-6">
+            <div class="w-full ">
+                <input class="appearance-none block w-full bg-slate-800 text-gray-100 border border-r-0 border-t-0 border-l-0 border-gray-200  py-3 px-1 
+                leading-tight focus:outline-none text-xl " id="grid-last-name" type="text" placeholder="Full Name">
+            </div>
+            <select id="countries" class="border border-r-0 border-t-0 border-l-0 border-gray-200 bg-slate-800 text-gray-100 text-xl
+                block w-full py-3 px-1 focus:outline-none">
+                <option class="text-gray-100" selected>Branch</option>
+                <option value="US">Mechanical</option>
+                <option value="CA">Computer Science</option>
+                <option value="FR">Electronics / Electrical</option>
+                <option value="DE">Others</option>
+            </select>
+        </div>
+        <div class="flex flex-col md:flex-row gap-y-4 md:gap-x-4 mt-6">
+            <div class="w-full ">
+                <input class="appearance-none block w-full bg-slate-800 text-gray-100 border border-r-0 border-t-0 border-l-0 border-gray-200  py-3 px-1 
+                leading-tight focus:outline-none text-xl " id="grid-last-name" type="text" placeholder="Reg Number">
+            </div>
+            <div class="w-full ">
+                <input class="appearance-none block w-full bg-slate-800 text-gray-100 border border-r-0 border-t-0 border-l-0 border-gray-200  py-3 px-1 
+                leading-tight focus:outline-none text-xl " id="grid-last-name" type="text" placeholder="Phone Number">
+            </div>
+            
+        </div>
+
+        <div class="mt-8">
+            <div class="flex justify-center text-2xl text-white font-semibold">
+                Interested Domains
+            </div>
+            <div class="flex flex-col justify-center md:flex-row md:gap-x-3 mt-3">
+                <div class="flex items-center mb-2">
+                    <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4 p-4 bg-gray-100 rounded border-green-400 focus:ring-red-500 
+                     focus:ring-2 ">
+                    <label for="default-checkbox" class="ml-2 text-xl text-white">Aerodynamics / Avionics</label>
+                </div>
+                <div class="flex items-center mb-2">
+                    <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4 p-4 bg-gray-100 rounded border-red-300 focus:ring-red-500 
+                     focus:ring-2 ">
+                    <label for="default-checkbox" class="ml-2 text-xl text-white">Modelling(CAD)</label>
+                </div>
+                <div class="flex items-center mb-2">
+                    <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4 p-4 bg-gray-100 rounded border-red-300 focus:ring-red-500 
+                     focus:ring-2 ">
+                    <label for="default-checkbox" class="ml-2 text-xl text-white">Management</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex flex-col md:flex-row gap-y-4 md:gap-x-4 mt-3 mb-4">
+            <select id="countries" class="border border-r-0 border-t-0 border-l-0 border-gray-200 bg-slate-800 text-gray-100 text-xl
+                block w-full py-3 px-1 focus:outline-none">
+                <option class="text-gray-100" selected>Other Skills</option>
+                <option value="US">UI-UX Figma</option>
+                <option value="CA">Video Editing</option>
+                <option value="FR">Web development</option>
+                <option value="DE">None</option>
+            </select>
+        </div>
+
+        <div class="mt-4">
+            <button class="w-full relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800">
+                <span class="text-xl relative px-5 w-full py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                    SUBMIT
+                </span>
+            </button>
+        </div>
+
+
+    </div>
+</body>
+</html>
